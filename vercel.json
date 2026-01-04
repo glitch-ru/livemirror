@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/:code*", "destination": "https://google.com" }
+    {
+      "source": "/:code*",
+      "destination": "/index.html?to=:code"
+    }
   ]
 }
