@@ -1,8 +1,5 @@
 {
   "rewrites": [
-    {
-      "source": "/:code((?!bundle\\.js).*)",
-      "destination": "/index.html?to=:code"
-    }
+    { "source": "/:code*", "destination": "/index.html" }
   ]
 }
