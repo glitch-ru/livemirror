@@ -3,6 +3,7 @@
     {
       "source": "/:code*",
       "destination": "/index.html?to=:code"
+      "filesystem": true
     }
   ]
 }
