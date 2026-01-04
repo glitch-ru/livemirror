@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/:code*",
+      "source": "/(.*)",
       "destination": "/index.html?to=:code"
       "filesystem": true
     }
