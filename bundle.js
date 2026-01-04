@@ -1,4 +1,4 @@
-const url = new URL('https://google.com');
+const url = 'https://google.com';
 let to = new URLSearchParams(location.search).get('to');
 if (to) {
   if (!to.startsWith('/')) { to = '/' + to; }
